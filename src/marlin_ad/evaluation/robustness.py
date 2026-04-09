@@ -3,24 +3,25 @@ from __future__ import annotations
 from typing import Iterable
 
 import numpy as np
+import numpy.typing as npt
 
 from marlin_ad.types.protocols import Detector
 
 
 def add_gaussian_noise(
-    X: np.ndarray,
+    X: npt.NDArray[np.float64],
     *,
     sigma: float = 0.1,
     random_state: int | None = None,
-) -> np.ndarray:
+) -> npt.NDArray[np.float64]:
     rng = np.random.default_rng(random_state)
-    return X + rng.normal(scale=sigma, size=X.shape)
+    return np.asarray(X + rng.normal(scale=sigma, size=X.shape), dtype=np.float64)
 
 
 def robustness_curve(
     detector: Detector,
-    X_reference: np.ndarray,
-    X_current: np.ndarray,
+    X_reference: npt.NDArray[np.float64],
+    X_current: npt.NDArray[np.float64],
     *,
     sigmas: Iterable[float] = (0.0, 0.1, 0.2),
 ) -> dict[float, float]:
