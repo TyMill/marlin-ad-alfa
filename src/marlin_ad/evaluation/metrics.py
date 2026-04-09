@@ -1,7 +1,13 @@
 from __future__ import annotations
-import numpy as np
 
-def precision_recall_f1(y_true: np.ndarray, y_pred: np.ndarray) -> dict[str, float]:
+import numpy as np
+import numpy.typing as npt
+
+
+def precision_recall_f1(
+    y_true: npt.NDArray[np.int_],
+    y_pred: npt.NDArray[np.int_],
+) -> dict[str, float]:
     tp = float(((y_true == 1) & (y_pred == 1)).sum())
     fp = float(((y_true == 0) & (y_pred == 1)).sum())
     fn = float(((y_true == 1) & (y_pred == 0)).sum())
