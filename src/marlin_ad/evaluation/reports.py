@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from typing import Any, Mapping
 
 import numpy as np
+import numpy.typing as npt
 
 from marlin_ad.detection.scoring import labels_from_threshold
 from marlin_ad.evaluation.metrics import precision_recall_f1
@@ -18,7 +19,7 @@ class EvaluationReport:
 
 def evaluate_detection(
     result: DetectionResult,
-    y_true: np.ndarray,
+    y_true: npt.NDArray[np.int_],
     *,
     threshold: float | None = None,
 ) -> EvaluationReport:
