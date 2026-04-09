@@ -1,0 +1,29 @@
+site_name: MARLIN-AD
+site_description: MARLIN-AD documentation (maritime anomaly detection + AI behaviour monitoring)
+repo_name: marlin-ad
+repo_url: https://github.com/TyMill/marlin-ad-alfa
+docs_dir: .
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - User Guide:
+      - Concepts: user-guide/concepts.md
+      - Maritime Data: user-guide/maritime-data.md
+      - Anomaly Detection: user-guide/anomaly-detection.md
+      - Model Monitoring: user-guide/model-monitoring.md
+      - Explainability: user-guide/explainability.md
+      - Evaluation: user-guide/evaluation.md
+      - Minimal Workflow: user-guide/minimal-workflow.md
+      - Implementation Status: implementation-status.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+plugins:
+  - search

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use MARLIN-AD in academic or industrial work, please cite it."
+title: "MARLIN-AD: Unified anomaly detection for maritime operations and AI model behaviour"
+type: software
+authors:
+  - family-names: "Miller"
+    given-names: "Tymoteusz"
+    affiliation: "University of Szczecin"
+  - family-names: "Durlik"
+    given-names: "Irmina"
+    affiliation: "Maritime University of Szczecin"
+license: "Apache-2.0"
+repository-code: "https://github.com/TyMill/marlin-ad-alfa"
+abstract: >-
+  MARLIN-AD is a typed Python library that unifies anomaly detection in maritime
+  data streams and anomaly detection in AI model behaviour, including drift,
+  stability, calibration, uncertainty, and explainability-health signals.
+keywords:
+  - anomaly detection
+  - maritime ai
+  - model monitoring
+  - drift detection
+  - uncertainty
+  - explainability
+version: "0.1.0"
+date-released: "2026-01-31"
