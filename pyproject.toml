@@ -8,10 +8,10 @@ version = "0.1.0"
 description = "Trustworthy anomaly detection + self-monitoring AI for maritime systems."
 readme = "README.md"
 requires-python = ">=3.10"
-license = {text = "Apache-2.0"}
+license = { text = "Apache-2.0" }
 authors = [
-  {name = "Dr Tymoteusz Miller"},
-  {name = "kpt. Irmina Durlik"},
+  { name = "Dr Tymoteusz Miller" },
+  { name = "kpt. Irmina Durlik" },
 ]
 keywords = ["anomaly-detection", "drift", "trustworthy-ai", "maritime", "xai", "monitoring"]
 classifiers = [
@@ -25,12 +25,6 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Typing :: Typed",
 ]
-
-[project.urls]
-Documentation = "https://github.com/TyMill/marlin-ad-alfa/tree/main/docs"
-Repository = "https://github.com/TyMill/marlin-ad-alfa"
-Issues = "https://github.com/TyMill/marlin-ad-alfa/issues"
-
 dependencies = [
   "numpy>=1.24",
   "pandas>=2.0",
@@ -38,6 +32,11 @@ dependencies = [
   "pydantic>=2.6",
   "typing-extensions>=4.10",
 ]
+
+[project.urls]
+Documentation = "https://github.com/TyMill/marlin-ad-alfa/tree/main/docs"
+Repository = "https://github.com/TyMill/marlin-ad-alfa"
+Issues = "https://github.com/TyMill/marlin-ad-alfa/issues"
 
 [project.optional-dependencies]
 dev = [
