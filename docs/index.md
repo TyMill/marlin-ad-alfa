@@ -18,14 +18,14 @@ Treating these as separate engineering concerns often yields incomplete diagnost
 
 ## Documentation map
 
-- **Getting Started**: installation, first deterministic run, and verification commands.
-- **Concepts**: design goals, architecture, and core interfaces.
-- **Maritime Data**: loader assumptions, schema validation, and dataset hygiene.
-- **Anomaly Detection**: detector contracts, score semantics, and thresholding.
-- **Model Monitoring**: drift/stability/health checks and operational interpretation.
-- **Explainability**: optional diagnostics and report integration patterns.
-- **Evaluation**: metric utilities, robustness patterns, and reporting checklist.
-- **Minimal Workflow**: one compact end-to-end example with expected outputs.
+- [Getting Started](getting-started.md): installation, first deterministic run, and verification commands.
+- [Concepts](user-guide/concepts.md): design goals, architecture, and core interfaces.
+- [Maritime Data](user-guide/maritime-data.md): loader assumptions, schema validation, and dataset hygiene.
+- [Anamaly Detection](user-guide/anomaly-detection.md): detector contracts, score semantics, and thresholding.
+- [Model Monitoring](user-guide/model-monitoring.md): drift/stability/health checks and operational interpretation.
+- [Explainability](user-guide/explainability.md): optional diagnostics and report integration patterns.
+- [Evaluation](user-guide/evaluation.md): metric utilities, robustness patterns, and reporting checklist.
+- [Minimal Workflow](user-guide/minimal-workflow.md): one compact end-to-end example with expected outputs.
 
 ## Quick start
 
@@ -34,4 +34,4 @@ pip install -e ".[dev,docs]"
 marlin-ad demo --rows 500 --seed 42
 ```
 
-For a Python-first path, see **User Guide → Minimal Workflow**.
+For a Python-first path, see [Minimal Workflow](user-guide/minimal-workflow.md)
