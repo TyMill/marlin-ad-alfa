@@ -1,6 +1,6 @@
 [![PyPI version](https://img.shields.io/pypi/v/marlin-ad?color=blue)](https://pypi.org/project/marlin-ad/)
 [![Downloads](https://static.pepy.tech/badge/marlin-ad)](https://pepy.tech/project/marlin-ad)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19496951.svg)](https://doi.org/10.5281/zenodo.19496951)
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://tymill.github.io/marlin-ad-alfa/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/marlin-ad?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/marlin-ad)
