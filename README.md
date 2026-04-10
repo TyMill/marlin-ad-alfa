@@ -1,3 +1,13 @@
+[![PyPI version](https://img.shields.io/pypi/v/marlin-ad?color=blue)](https://pypi.org/project/marlin-ad/)
+[![Downloads](https://static.pepy.tech/badge/marlin-ad)](https://pepy.tech/project/marlin-ad)
+
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://tymill.github.io/marlin-ad-alfa/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/marlin-ad?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/marlin-ad)
+[![CI](https://github.com/TyMill/marlin-ad-alfa/actions/workflows/ci.yml/badge.svg)](https://github.com/TyMill/marlin-ad-alfa/actions/workflows/ci.yml)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/TyMill/marlin-ad-alfa)](https://github.com/TyMill/marlin-ad-alfa/releases)
+
+
 # MARLIN-AD
 
 **MARLIN-AD** is a typed Python library for two coupled technical tasks:
