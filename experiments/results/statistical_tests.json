@@ -1,0 +1,110 @@
+{
+  "accuracy": {
+    "friedman_stat": NaN,
+    "friedman_p": NaN,
+    "kendall_w": NaN,
+    "spearman_rho": 0.0,
+    "spearman_p": 1.0,
+    "permutation_p": 1.0,
+    "observed_stat": 0.0,
+    "pairwise_wilcoxon": {
+      "0.5": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "1.0": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "1.5": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "2.0": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "4.0": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      }
+    }
+  },
+  "f1": {
+    "friedman_stat": NaN,
+    "friedman_p": NaN,
+    "kendall_w": NaN,
+    "spearman_rho": 0.0,
+    "spearman_p": 1.0,
+    "permutation_p": 1.0,
+    "observed_stat": 0.0,
+    "pairwise_wilcoxon": {
+      "0.5": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "1.0": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "1.5": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "2.0": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "4.0": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      }
+    }
+  },
+  "roc_auc": {
+    "friedman_stat": NaN,
+    "friedman_p": NaN,
+    "kendall_w": NaN,
+    "spearman_rho": 0.0,
+    "spearman_p": 1.0,
+    "permutation_p": 1.0,
+    "observed_stat": 0.0,
+    "pairwise_wilcoxon": {
+      "0.5": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "1.0": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "1.5": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "2.0": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      },
+      "4.0": {
+        "statistic": 27.5,
+        "p_raw": 1.0,
+        "p_bonf": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "source": "DMA AIS aisdk-2025-02-27.csv",
+  "n_samples": 200000,
+  "anomaly_rate_ref": 0.05,
+  "anomaly_rate_drifted": 0.179215,
+  "anomaly_rate_factor": 3.58,
+  "ks_sog": 0.36436,
+  "p_sog": 0.0,
+  "ks_cog": 0.09204500000000004,
+  "p_cog": 0.0,
+  "mean_score_ref": 0.44970261398916794,
+  "mean_score_drifted": 0.536525216644494
+}
